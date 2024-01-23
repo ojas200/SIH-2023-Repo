@@ -2,7 +2,8 @@
 > A repository of materials developed for SIH 2023 -> Initial Stage
 
 **Problem Statement: Automatic regulation of valves for release of water based upon soil moisture availability in the root zone of the crop, using artificial intelligence, in a piped and micro irrigation network of irrigation system.**
-SIH #1293
+
+*SIH #1293*
 
 To address the issue at hand, we have devised a unique solution, wherein we have made use of temperature & air humidity (BME280), rainfall detection, and soil moisture (SEN6) sensors. These sensors sample data every thirty seconds, which is sent to an Arduino Nano microcontroller through a wired connection.  This data is then communicated wirelessly to the control unit via an Xbee radio network. The control system employs ML models to calculate the amount of time the valve needs to be operated. his valve is transmitted back to the microcontroller which sends the desired control systems to the valves. 
 
